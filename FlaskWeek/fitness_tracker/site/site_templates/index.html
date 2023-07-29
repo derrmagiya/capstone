@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<div class="container">
+    <!-- Header Section -->
+    <header class="row">
+        <div class="col-12 col-md-6" id="header-text">
+            <h2>Stay Fit and Active with our Fitness Tracker!</h2>
+            <h5>Track your fitness progress and achieve your goals.</h5>
+            <div>
+                <button class="btn btn-primary">View results</button>
+                <button class="btn btn-primary">Join the Team</button>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <img class="header-image" src="../../static/images/joinfitness.png" alt="Hero Header Image">
+        </div>
+    </header>
+    <!-- End of Header Section -->
+
+    <!-- Start Middle Section -->
+
+    <!-- Collection of Features Section -->
+    <section class="row" id="features-section">
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/dedicate.jpg" alt="api image" style="height: 200px; object-fit: cover;">
+            <h4>Stay Dedicated</h4>
+            <p>
+                Log your meals and track your calorie intake to maintain a healthy and balanced diet.
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/tracking fitness.jpg" alt="graphql image" style="height: 200px; object-fit: cover;">
+            <h4>Workout Logging</h4>
+            <p>
+                Record your workouts and see your progress as you get stronger and fitter.
+            </p>
+        </div>
+        <div class="col-12 col-md-4">
+            <img src="../../static/images/daily goals.webp" alt="database image" style="height: 200px; object-fit: cover;">
+            <h4>Track you Goals</h4>
+            <p>
+                Keep track of your daily steps and monitor your progress towards your fitness goals. 
+            </p>
+        </div>
+    </section>
+    <!-- End of Collection Features -->
+
+    <!-- Community Section -->
+    <section class="row">
+        <div class="col-12 col-md-6">
+            <img src="../../static/images/jointogether.png" alt="Drone Image" id="Drone-image">
+        </div>
+        <div class="col-12 col-md-6">
+            <h4>Join our Fitness Community</h4>
+            <p>
+                Connect with like-minded fitness enthusiasts from around the world. Share your fitness journey, 
+                get motivated, and achieve your goals together.
+            </p>
+            <div>
+                </style><button class="btn btn-primary">View Testimonials</button>
+                <button class="btn btn-primary">Join The Journey</button>
+            </div>
+        </div>
+    </section>
+    <!-- End of Community Section -->
+
+    <!-- Footer Section -->
+    <footer class="row" id="footer">
+        <div class="col-2">
+            <img src="../../static/images/likeminded.png" alt="Coding Drones Logo" id="footer-logo">
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="footer-text-flex">
+                <h4>Get Started</h4>
+                <p>Why Choose Us?</p>
+                <p>Our Fitness Tracker</p>
+                <p>Join Our Community</p>
+                <p>Testimonials</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="footer-text-flex">
+                <h4>Contact</h4>
+                <p>Email: info@fitnesstracker.com</p>
+                <p>Phone: +1 123-456-7890</p>
+                <p>Address: 123 Fitness Street, Fitnessville</p>
+            </div>
+        </div>
+    </footer>
+</div>
+
+{% endblock content %}
+
